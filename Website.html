@@ -1,0 +1,190 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lara's Photography Studio</title>
+  <link rel="icon" href="LOGO 1.jpeg">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+    }
+    body {
+      background-color: #000;
+      color: #fff;
+      line-height: 1.6;
+    }
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #111;
+      padding: 15px 30px;
+    }
+    .navbar .logo {
+      display: flex;
+      align-items: center;
+      font-size: 24px;
+      color: white;
+      font-weight: bold;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .navbar .logo img {
+      width: 40px;
+      height: 40px;
+      margin-right: 10px;
+    }
+    .navbar ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+    .navbar ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .navbar ul li a:hover {
+      color: red;
+    }
+    header {
+      text-align: center;
+      padding: 20px;
+      background-color: #111;
+    }
+    header h1 {
+      color: #fff;
+      font-size: 36px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    header span {
+      color: red;
+      font-weight: bold;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .home{
+        padding-left: 30px;
+        padding-right: 30px;
+        align-items: center;
+        width: 100%;
+        max-width: 600px;
+        transition: transform 0.3s ease;
+    }
+    .home:hover{
+        transform: scale(1.05);
+    }
+    .about {
+      padding: 20px;
+      text-align: center;
+      max-width: 800px;
+      margin: auto;
+    }
+    .about p{
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .about h2 {
+      color: red;
+      margin-bottom: 10px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .contact {
+      background: #1c1c1c;
+      padding: 20px;
+      text-align: center;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .contact p {
+      margin: 10px 0;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    .services {
+      padding: 20px;
+      text-align: center;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .services ul {
+      list-style: none;
+      padding: 0;
+    }
+    .services li {
+      margin: 10px 0;
+      font-weight: bold;
+      font-family: 'Times New Roman', Times, serif;
+      transition: text-shadow 0.3s ease;
+    }
+    .services li:hover{
+        text-shadow: 0 0 8px #ff0000, 0 0 12px #ff0000;
+        color: #fff
+    }
+    .footer {
+      background-color: #111;
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+      color: #aaa;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: red;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>  <nav class="navbar">
+    <div class="logo">
+      <img src="LOGO 1.jpeg" alt="Logo">
+      Lara's Studio
+    </div>
+    <ul>
+      <li><a href="#home">HOME</a></li>
+      <li><a href="#about">ABOUT</a></li>
+      <li><a href="#services">OUR SERVICES</a></li>
+      <li><a href="#contact">CONTACT</a></li>
+    </ul>
+  </nav>  <header>
+    <h1><span>Lara's</span> Photography Studio</h1>
+  </header>  
+  <section id="home" class="home">
+    <img src="camera man.jpg">
+  </section>
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>
+      We are passionate photographers who love to capture beautiful moments through the lens. Our team specializes in all types of photography including pre-wedding, maternity, events, and outdoor shoots. We believe every photo tells a story, and we aim to make your memories last forever. With creative ideas and professional work, we are here to turn your special moments into timeless memories.
+    </p>
+   
+    <section id="services" class="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>📸 Event Coverage</li>
+      <li>📸 Baby Shoot</li>
+      <li>📸 Birthday Celebration</li>
+      <li>📸 Puberty Function</li>
+      <li>📸 Videography</li>
+      <li>📸 Maternity</li>
+      <li>📸 pre-wedding</li>
+      <li>📸 Product shoot</li>
+      <li>📸 Housewarming Photoshoot</li>
+    </ul>
+  </section>  
+</section>  <section id="contact" class="contact">
+    <p>
+      📞 +91 6383689637<br>
+      📷 Instagram: lara_s._photography<br>
+      📍 Tirunelveli & Thoothukudi
+    </p>
+    
+  </section> 
+  <div class="footer">
+    &copy; 2025 Lara's Photography Studio. All rights reserved.
+  </div></body>
+</html>
